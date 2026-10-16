@@ -7,25 +7,25 @@ cask "bauddy" do
     end
   end
 
-  version "0.0.8-beta.1"
+  version "0.0.9-beta.1"
 
   on_macos do
     on_arm do
-      sha256 "e7b4a5fe8771029d49e363691e3f42d86d99cb02597b07a0e0ad5375a8d60772"
+      sha256 "32c1617052902954300cccf8081442418facdd83d593ea881de05eace581ad58"
       url "https://github.com/ssimpson89/bauddy/releases/download/v#{version}/bauddy_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "ba5e7be48d70e2eac2f17916e2954b33a57154d53275f71e301a8caa8129e064"
+      sha256 "e298c4080ce3d78440af56db2998e748eed7b2b08ee670b7280012ff59a488a8"
       url "https://github.com/ssimpson89/bauddy/releases/download/v#{version}/bauddy_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "c3a68783b380a16d56e673069e05b7cdebad42324e40fb8035e6cd5ec4bcedbb"
+      sha256 "8261e7ec8756a06ded10074a6e622004be5106689162d01b698f9ad91ac4a02e"
       url "https://github.com/ssimpson89/bauddy/releases/download/v#{version}/bauddy_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "94f27b3587e85ba49378a4dda2852b96ee620c80e3c9ea2daba039b6803bc452"
+      sha256 "553bf7c741cd964be833c668d6b5887e8f7f1dc63a0fefc292128c48b69bedab"
       url "https://github.com/ssimpson89/bauddy/releases/download/v#{version}/bauddy_#{version}_linux_amd64.tar.gz"
     end
   end
