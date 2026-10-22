@@ -7,25 +7,25 @@ cask "oob" do
     end
   end
 
-  version "0.0.4-beta.1"
+  version "0.0.5-beta.1"
 
   on_macos do
     on_arm do
-      sha256 "8c4ba549ab682978a94ccb9da9d10538dd5f77716e64eeffcde8dd7ab2dd805a"
+      sha256 "45e956d694947b67dc3abc3dd4c066357640ffe6a4f70adc0bcfc06b89ba3688"
       url "https://github.com/ssimpson89/oob/releases/download/v#{version}/oob_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "bff40c82759fc3a5fd94913e14d68c3fe7446362d7d55a8f70ef21171d2ee1de"
+      sha256 "ff4139218015ec9dda49d3fd6a278e80552b4468bbcdcd591410cb16c7eb18c2"
       url "https://github.com/ssimpson89/oob/releases/download/v#{version}/oob_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "ae989a161e66e6258e9ba0f11b4d54981c22ad29f6bbc50ad1fb4ba4d7181d18"
+      sha256 "4d8e5596d1f563d6b5ecbc6de81338036ec5e9e08a6d6a75ee5f8eec9a23b096"
       url "https://github.com/ssimpson89/oob/releases/download/v#{version}/oob_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "6604dd144530deaa515104eedbd111469c43ab4082a54843cb83f10cbeaa753b"
+      sha256 "81b8b4987f8c66d75b5604d5caefa4a0610418a21969ec56a64760b1fe32abd0"
       url "https://github.com/ssimpson89/oob/releases/download/v#{version}/oob_#{version}_linux_amd64.tar.gz"
     end
   end
